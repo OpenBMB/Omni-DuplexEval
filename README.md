@@ -5,11 +5,11 @@
   🤗 <a href="https://huggingface.co/datasets/Hothan/Omni-DuplexEval" target="_blank">Hugging Face Dataset</a> &nbsp;
 </p>
 
-This directory contains the anonymized evaluation scripts for the DuplexEval benchmark.
+This directory contains the evaluation scripts for the Omni-DuplexEval benchmark.
 
 ## Tasks
 
-DuplexEval contains two evaluation families:
+Omni-DuplexEval contains two evaluation families:
 
 - `real_time_description.py`: evaluates real-time description outputs with temporal sensitivity and content accuracy.
 - `proactive_reminder.py`: evaluates proactive event reminders, post-event reminders, and correction-style proactive responses.
@@ -53,17 +53,7 @@ export DUPLEXEVAL_MODEL="YOUR_EVALUATOR_MODEL_ID"
 
 `OPENAI_API_KEY` and `OPENAI_BASE_URL` are also accepted.
 
-## Data Access
-
-Two public dataset variants are available:
-
-- `Omni-DuplexEval-Examples`: a small demonstration set for submission review and display. Each task contains 5 samples.
-- `Omni-DuplexEval-Full`: the full evaluation set. Use this variant for real evaluation runs.
-
-```text
-https://huggingface.co/datasets/foragi/Omni-DuplexEval-Examples
-https://huggingface.co/datasets/foragi/Omni-DuplexEval-Full
-```
+## Dataset
 
 The dataset uses the following unified fields:
 
