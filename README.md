@@ -1,4 +1,9 @@
-# DuplexEval Evaluation Code
+# Omni-DuplexEval: Evaluating Real-time Duplex Omni-modal Interaction
+
+<p align="center">
+  📄 <a href="https://arxiv.org/abs/2402.14008" target="_blank">Paper</a> &nbsp; | &nbsp;
+  🤗 <a href="https://huggingface.co/datasets/Hothan/Omni-DuplexEval" target="_blank">Hugging Face Dataset</a> &nbsp;
+</p>
 
 This directory contains the anonymized evaluation scripts for the DuplexEval benchmark.
 
