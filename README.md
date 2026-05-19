@@ -1,7 +1,7 @@
 # Omni-DuplexEval: Evaluating Real-time Duplex Omni-modal Interaction
 
 <p align="center">
-  📄 <a href="https://arxiv.org/abs/2402.14008" target="_blank">Paper</a> &nbsp; | &nbsp;
+  📄 <a href="https://arxiv.org/abs/2605.17360" target="_blank">Paper</a> &nbsp; | &nbsp;
   🤗 <a href="https://huggingface.co/datasets/Hothan/Omni-DuplexEval" target="_blank">Hugging Face Dataset</a> &nbsp;
 </p>
 
@@ -199,3 +199,19 @@ Batch scripts additionally write:
 
 - `batch_real_time_description_summary.json`
 - `batch_proactive_reminder_summary.json`
+
+## Citation
+
+**BibTeX:**
+```bibtex
+@misc{he2026omniduplexevalevaluatingrealtimeduplex,
+      title={Omni-DuplexEval: Evaluating Real-time Duplex Omni-modal Interaction}, 
+      author={Chaoqun He and Mingyang Xiang and Yingjing Xu and Bokai Xu and Junbo Cui and Jie Zhou and Yuan Yao and Lijie Wen},
+      year={2026},
+      eprint={2605.17360},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.17360}, 
+}
+```
+
